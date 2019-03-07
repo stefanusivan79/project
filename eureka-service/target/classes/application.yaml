@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: eureka-service
+
+server:
+  port: 8302
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+
+zuul:
+  prefix: /api
+  routes:
+    customer-service:
+      path: /customer/**
+      url: http://localhost:8301
+    ticket-service:
+      path: /ticket/**
+      url: http://localhost:8303
+    order-service:
+      path: /order/**
+      url: http://localhost:8304
