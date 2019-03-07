@@ -1,0 +1,6 @@
+projectKey=com.project:customer-service
+serverUrl=http://localhost:9000
+serverVersion=7.5.0.20543
+dashboardUrl=http://localhost:9000/dashboard?id=com.project%3Acustomer-service
+ceTaskId=AWlY-hUCAHERNSFNC-nU
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWlY-hUCAHERNSFNC-nU
