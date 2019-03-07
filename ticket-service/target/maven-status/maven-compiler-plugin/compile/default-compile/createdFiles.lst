@@ -1,0 +1,12 @@
+com\project\ticketservice\service\TicketService.class
+com\project\ticketservice\web\TicketResource.class
+com\project\ticketservice\converter\TicketConverter.class
+com\project\ticketservice\dto\TicketDTO.class
+com\project\ticketservice\domain\Ticket.class
+com\project\ticketservice\config\WebSecurityConfig.class
+com\project\ticketservice\validator\TicketValidator.class
+com\project\ticketservice\repository\TicketRepository.class
+com\project\ticketservice\TicketServiceApplication.class
+com\project\ticketservice\util\InitDB.class
+com\project\ticketservice\dto\TicketBoughtDTO.class
+com\project\ticketservice\dto\ResultErrorDTO.class
